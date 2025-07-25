@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Card</title>
+   <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .user-card{
+            background-color: aqua;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 400px;
+            border-radius: 5px;
+            padding:10px ;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+        .skills{
+             display: flex;
+            align-items: center;
+             justify-content: space-between;
+             gap:5px;
+        }
+        .skills button{
+                         padding: 10px 10px;
+                         border-radius: 5px;
+                         border: none;
+        }
+    </style>
+</head>
+   <body>
+    
+ <div class="user-card">
+    <h1>User Profile</h1>
+    <div><img src=""alt="" id="profilePic"></div>
+    <span id="name"></span>
+    <span id="role"></span>
+    <span id="location"></span>
+    <div class="skills" id="skills">
+    </div>
+</div>
+<script src="userCard.js"></script>
+   </body>
+</html>
